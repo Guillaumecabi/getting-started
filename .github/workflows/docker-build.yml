@@ -9,4 +9,4 @@ jobs:
       - name: checkout
         uses: actions/Checkout@v2.7.0
       - name: Docker Login
-        run: docker/login-action@v2.1.0
+        uses: docker/login-action@v2.1.0
