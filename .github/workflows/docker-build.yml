@@ -10,3 +10,6 @@ jobs:
         uses: actions/Checkout@v2.7.0
       - name: Docker Login
         uses: docker/login-action@v2.1.0
+        with:
+          username: tedt
+          password: ezfder
