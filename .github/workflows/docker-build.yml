@@ -5,8 +5,8 @@ on: ["push"]
 jobs:
   docker-build:
     runs-on: ubuntu-latest
-    step:
+    steps:
       - name: checkout
-        uses: actions/checkout@v2.7.0
-      - name: verify
+        uses: actions/Checkout@v2.7.0
+      - name: Verify
         run: ls
