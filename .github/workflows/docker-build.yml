@@ -8,5 +8,5 @@ jobs:
     steps:
       - name: checkout
         uses: actions/Checkout@v2.7.0
-      - name: Verify
-        run: ls
+      - name: Docker Login
+        run: docker/login-action@v2.1.0
